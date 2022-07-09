@@ -1,0 +1,15 @@
+.footer-descript ul{
+    flex-wrap:wrap;
+    flex-direction:row;
+    align-items:center;
+    margin:10px 0px;
+
+}
+.footer-descript ul a{
+    margin:0px 10px;
+    text-decoration:none;
+
+}
+.footer-descript ul a:hover{
+    text-decoration:underline;
+}

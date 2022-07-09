@@ -1,0 +1,142 @@
+.body{
+    background:#f0f2f5;
+    display:flex;
+    justify-content: space-evenly;
+    padding: 155px 0px ;
+}
+
+.fb-logo{
+    display:flex;
+    flex-direction:column; 
+}
+.fb-logo img{
+    width:300px;
+}
+.fb-logo h3{
+    width:560px;
+    padding:0px 30px;
+}
+.box-login{
+    width:400px;
+    background:#fff;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:20px;
+    border-radius:10px;
+}
+.box-login input{
+    margin:10px 0px;
+    width:360px;
+    border-radius:3px;
+    border:1px solid #dddfe2;
+    height:50px;
+    text-align:center;
+    font-size:20px ;
+}
+.box-login input:hover{
+    box-shadow:0px 0px 1px #1877f2;
+}
+.box-login .btn-entrar{
+    background:#1877f2;
+    color:white;
+    font-size:22px;
+    font-weight:bold;
+    font-family:inherit;
+    border:none;
+    border-radius:7px;
+}
+.box-login a{
+    margin:0px 0px 20px;
+    text-decoration:none;
+}
+
+.box-login a:hover{
+    text-decoration:underline;
+}
+
+.line{
+    width:350px;
+    height:1px;
+    background:#dddfe2;
+    margin:0px 0px 30px;
+}
+.button button{
+    width:180px;
+    height:50px;
+    background:#36a420;
+    color:white;
+    border:white;
+    border-radius:7px;
+    font-size:15px;
+    font-weight:bold;
+}
+.text-footer{
+    width:400px;
+    text-align:center;
+    margin-top:15px;
+}
+.text-footer a{
+    color:black;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:14px;
+}
+.text-footer a:hover{
+    text-decoration:underline;
+}
+
+footer{
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:20px;
+    justify-content:center;
+
+}
+.idiomas{
+    width:50%;
+}
+.idiomas ul{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    list-style-type:none;
+    font-size:12px;
+
+}
+.idiomas ul a{
+    margin:0px 10px;
+    text-decoration:none;
+    color:#737373;
+
+
+}
+.idiomas ul a:hover{
+    text-decoration:underline;
+}
+
+.line-footer{
+    width:900px;
+    height:1px;
+    background:#dddfe2;
+}
+.body .main-box{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+@media (max-width:768px){
+    .body{
+        flex-direction:column;
+    }
+    .fb-logo{
+        align-items:center;
+    }
+    .fb-logo h3{
+        padding:0px;
+        margin-bottom:60px;
+        text-align:center;
+    }
+  
+}
