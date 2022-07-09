@@ -116,7 +116,7 @@ footer{
 }
 
 .line-footer{
-    width:900px;
+    width:auto;
     height:1px;
     background:#dddfe2;
 }
@@ -139,5 +139,6 @@ footer{
         text-align:center;
         width:75%;
     }
+   
   
 }
